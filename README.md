@@ -37,29 +37,16 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 ```
 ```python
-import pandas as pd
 from sklearn.ensemble import IsolationForest
-import matplotlib.pyplot as plt
-import seaborn as sns
 ```
 ```python
-import pandas as pd
 from sklearn.neighbors import LocalOutlierFactor
-import matplotlib.pyplot as plt
-import seaborn as sns
 ```
 ```python
-import numpy as np
-import pandas as pd
 from sklearn.svm import OneClassSVM
-import matplotlib.pyplot as plt
-import seaborn as sns
 ```
 Step 3:Reconstructing outliers in logging curves
 ```python
-import numpy as np
-import pandas as pd
-import matplotlib.pyplot as plt
 from statsmodels.nonparametric.smoothers_lowess import lowess
 ```
 
