@@ -14,7 +14,7 @@ pip install matplotlib
       
 
 ## 3.Instructions
-Step 1:Data preprocessing
+Step 1:Data preprocessing(The code file name is data_process.py)
 ```python
 import pandas as pd
 
@@ -30,6 +30,7 @@ output_path = 'C:/Users/Dell/Desktop/2/well_log_data_process.csv'
 cleaned_data.to_csv(output_path, index=False)
 ```
 Step 2:Choosing the UML-ODTS algorithm to detect outliers in logging curves
+(The code file name is DBSCAN.py, IF.py, Local_outlier_factor.py, One-class SVM.py)
 ```python
 import pandas as pd
 from sklearn.cluster import DBSCAN
@@ -45,7 +46,7 @@ from sklearn.neighbors import LocalOutlierFactor
 ```python
 from sklearn.svm import OneClassSVM
 ```
-Step 3:Reconstructing outliers in logging curves
+Step 3:Reconstructing outliers in logging curves(The code file name is Reconstructed_Data.py)
 ```python
 from statsmodels.nonparametric.smoothers_lowess import lowess
 ```
