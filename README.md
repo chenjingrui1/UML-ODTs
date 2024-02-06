@@ -15,6 +15,7 @@ pip install matplotlib
 
 ## 3.Instructions
 Step 1:Data preprocessing(The code file name is data_process.py)
+Depending on the data, run this code if preprocessing is required, and if there is no null or zero value, then you don't need to run this code.
 ```python
 import pandas as pd
 
